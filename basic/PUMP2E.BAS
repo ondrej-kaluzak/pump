@@ -1,3 +1,40 @@
+' Komentar
+' REM - riadok je ignorovany
+' ASC(string, index znaku) - vrati ASCII kod znaku
+' MID - vrati cast retazcu bytes parameter je asi ze ako dlhy
+' portion$ = MID$(stringValue$, startPosition%[, bytes%])
+'
+' LEFT$ - The LEFT$ string function returns a number of characters from the left of a STRING.
+' LEFT$(stringValue$, numberOfCharacters%)
+' RIGHT$ - function returns a set number of characters in a STRING variable starting from the end and counting backwards.
+' RIGHT$(stringvalue$, numberofcharacters%)
+
+' GOSUB /cislo riadku
+' DIM - nieco ako pole to bude
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+
+10 LET R = 4
+15 PRINT R
+20 LET C = "green"
+25 PRINT MID$(C,2,1)
+30 LET Z = LOG(R)*1200/LOG(2)
+35 PRINT Z
+40 FNSD(X$,X)=ASC(MID$(X$,X,1))-48
+100 REM Subroutine
+110
+
+
+
 5 DEFDBL A-Z:DEF FNTX$(X)=RIGHT$(STR$(X),LEN(STR$(X))-1):DEF FNSD(X$,X)=ASC(MID$(X$,X,1))-48:DEF FNFC(X)=LOG(X)*1200/LOG(2)
 8 DIM D$(4095):DIM Q(49),QX(47),QY(47),R(11):P(0)=1:P(1)=7:P(2)=2:P(3)=3:P(4)=5:C$= "ABDABEABFACDACEACFAFDAFECBDCBECBFEBDEBFECDCFDEFD":B$="203032404243"
 10 FOR X=0 TO 11
